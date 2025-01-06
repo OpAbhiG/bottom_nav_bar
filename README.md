@@ -1,16 +1,13 @@
-# flotingicon
+# Flutter Modern Bottom Navigation Bar with FAB
 
-A new Flutter project.
+This Flutter project demonstrates a modern bottom navigation bar with a floating action button (FAB) positioned at the center. The design is sleek, user-friendly, and ideal for apps with multiple navigation screens.
 
-## Getting Started
+## Features
+- Floating Action Button (FAB) at the center of the `BottomAppBar`.
+- Custom icon (`assets/b-nobg.png`) for the FAB.
+- Dynamic screen navigation using `IndexedStack`.
+- Highlighted icons and labels for the selected tab.
+- Five dummy screens: Dashboard, Doctors, Profile, Appointments, and Treatments.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Output
+![WhatsApp Image 2025-01-06 at 11 52 50_b13bfeef](https://github.com/user-attachments/assets/9bdd8491-5462-40e2-abc3-ead6e076765e)
