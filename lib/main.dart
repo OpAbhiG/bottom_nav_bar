@@ -106,38 +106,6 @@ class MainScreenState extends State<MainScreen> {
 
 
 
-  // Widget _buildNavItem(IconData icon, String label, int index) {
-  //   final isSelected = _currentIndex == index;
-  //   return InkWell(
-  //     onTap: () {
-  //       setState(() {
-  //         _currentIndex = index;
-  //       });
-  //     },
-  //
-  //     child: Column(
-  //       mainAxisSize: MainAxisSize.min,
-  //       mainAxisAlignment: MainAxisAlignment.center,
-  //       children: [
-  //         Icon(
-  //           icon,
-  //           size: 18,
-  //           color: isSelected ? const Color(0xFF243B6D) : Colors.grey,
-  //
-  //         ),
-  //         const SizedBox(height: 4),
-  //         Text(
-  //           label,
-  //           style: TextStyle(
-  //             fontSize: 9,
-  //             fontWeight: FontWeight.bold,
-  //             color: isSelected ? const Color(0xFF243B6D) : const Color(0xFFB0B0B0),
-  //           ),
-  //         ),
-  //       ],
-  //     ),
-  //   );
-  // }
   Widget _buildNavItem(IconData icon, String label, int index) {
     final isSelected = _currentIndex == index;
     return InkWell(
