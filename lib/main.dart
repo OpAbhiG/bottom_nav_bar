@@ -38,9 +38,9 @@ class MainScreenState extends State<MainScreen> {
           TreatmentScreen(),
         ],
       ),
-      floatingActionButton: Container(
-        height: 60, // Adjust the size of the outer circle
-        width: 60,
+      floatingActionButton : Container(
+        height: 50, // Adjust the size of the outer circle
+        width: 50,
         decoration: BoxDecoration(
           shape: BoxShape.circle,
           border: Border.all(
@@ -56,7 +56,7 @@ class MainScreenState extends State<MainScreen> {
             ),
           ],
         ),
-        child: FloatingActionButton(
+        child: FloatingActionButton.small (
           onPressed: () {
             setState(() {
               _currentIndex = 2; // Navigate to the Profile screen
@@ -72,8 +72,8 @@ class MainScreenState extends State<MainScreen> {
           child: Image.asset(
             'assets/b-nobg.png', // Use your image
             fit: BoxFit.cover,
-            height: 35, // Adjust the image size
-            width: 35,
+            height: 30, // Adjust the image size
+            width: 30,
           ),
         ),
       ),
