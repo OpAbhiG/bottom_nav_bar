@@ -10,4 +10,4 @@ This Flutter project demonstrates a modern bottom navigation bar with a floating
 - Five dummy screens: Dashboard, Doctors, Profile, Appointments, and Treatments.
 
 ## Output
-![WhatsApp Image 2025-01-06 at 11 52 50_b13bfeef](https://github.com/user-attachments/assets/9bdd8491-5462-40e2-abc3-ead6e076765e)
+![image](https://github.com/user-attachments/assets/195e1fb7-23c5-4552-b707-67b156f13b57)
